@@ -19,7 +19,7 @@ const rollDice = () => {
 
     // Info del dado
     const dice = Math.floor(Math.random() * 6) + 1;
-    diceEl.src = `/assets/dice-${dice}.png`;
+    diceEl.src = `dice-${dice}.png`;
     diceEl.classList.remove('hidden');
     console.log(dice);
     // Cual jugador esta activo
